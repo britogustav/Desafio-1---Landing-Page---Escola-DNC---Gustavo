@@ -1,0 +1,94 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+}
+
+#TituloPrincipal{
+    font-size: 50px;
+    margin-top: 160px;
+    margin-left: 62px;
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+#Subtitulo{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    color: #ffff;
+}
+
+#primeirasessao{
+    background-color: #303030;
+    padding: 25px;
+}
+
+#segundasessao{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 100px 0px;
+}
+
+.numero{
+    font-size: 40px;
+}
+
+.nome{
+    font-size: 20px;
+}
+
+#titulo2{
+    font-size: 40px;
+}
+
+
+#terceirasessao{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    align-items: center;
+}
+
+#imagemcorpo{
+    width: 510px;
+    height: 605px; 
+}
+
+#quartasessao{
+    background-color: #303030;
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#ultimotexto{
+    font-size: 32px;
+    color: #ffff;
+}
+
+input{
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+#botao{
+    color: #ffff;
+    background-color: #c07212;
+    font-size: 25px;
+    width: 286px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 18%;
+}
+
+#botao:hover{
+    transform: translateY(-2px);
+    transition-duration: 0.5s;
+}
